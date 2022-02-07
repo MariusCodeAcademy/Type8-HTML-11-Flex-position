@@ -2,14 +2,24 @@
 @import 'reset.css';
 @import 'common.css';
 
+body {
+  background-color: #333;
+  margin-bottom: 100px;
+}
+
 h1 {
   font-size: 50px;
 }
 
-/* heaer */
+/* header */
 .header {
-  background-color: #333;
+  background-color: transparent;
   color: snow;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid snow;
 }
 
 .header-flex {
@@ -20,4 +30,23 @@ h1 {
 .nav-item {
   padding: 8px 16px;
   display: inline-block;
+}
+
+/* hero */
+
+.hero {
+  background: url('../img/header.jpg') no-repeat;
+  background-size: cover;
+  /* padding-top: 200px;
+  padding-bottom: 200px; */
+  text-align: center;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-text-container {
+  color: snow;
+  /* border: 1px solid #000; */
 }
