@@ -5,3 +5,19 @@
 h1 {
   font-size: 50px;
 }
+
+/* heaer */
+.header {
+  background-color: #333;
+  color: snow;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item {
+  padding: 8px 16px;
+  display: inline-block;
+}
