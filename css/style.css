@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
 @import 'reset.css';
 @import 'common.css';
@@ -5,10 +6,12 @@
 body {
   background-color: #333;
   margin-bottom: 100px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 100px;
+  font-weight: 300;
 }
 
 /* header */
